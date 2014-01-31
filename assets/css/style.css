@@ -1,0 +1,148 @@
+/* Style for boston design center splash page */
+@font-face {
+  font-family: stMarie;
+  src: url('../fonts/StMarie-Thin.otf');
+}
+body {
+  background: url(../images/bkg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+#container {
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+#header-inner,
+#main-inner,
+#footer-inner,
+.inner {
+  max-width: 1024px;
+  margin: 0 auto 0 auto;
+  text-align: center;
+}
+#main {
+  background-color: #FFFFFE;
+  margin-top: 500px;
+  position: relative;
+  z-index: 1;
+}
+.logo {
+  width: 80%;
+  opacity: 0.85;
+}
+.st_marie {
+  font-family: 'stMarie';
+  color: #f2d261;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+  font-size: 12em;
+  padding-top: 0;
+  font-weight: bold;
+  margin: 0.25em;
+}
+.abel {
+  font-size: 9em;
+}
+.small {
+  font-size: 2em;
+}
+.medium {
+  font-size: 4em;
+}
+/* FONTS */
+h1 {
+  font-family: 'Open Sans';
+  text-transform: uppercase;
+  padding-top: 2em;
+}
+img.cover {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+/* PRESENTS */
+#presents {
+  padding: 2em;
+}
+/* DESIGN RESEARCH */
+#design-research {
+  background-image: url(../images/tiny_grid.png);
+  padding: 2em;
+  font-family: 'Open Sans';
+  color: #464646;
+  font-weight: 300;
+  font-size: 1.5em;
+  text-align: center;
+}
+#design-research p {
+  text-align: center;
+  width: 100%;
+}
+/* BDC IMAGE */
+#bdc {
+  background: url(../images/bdc.jpg) no-repeat center center fixed;
+  height: 500px;
+}
+#map {
+  background: url(../images/map.jpg) no-repeat center center fixed;
+  height: 500px;
+}
+#hallway {
+  background: url(../images/hallway.jpg) no-repeat center center fixed;
+  height: 500px;
+}
+/* ABEL DEMO */
+.video {
+  padding: 2em;
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  text-align: center;
+}
+.video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#demo {
+  padding: 2em 0;
+}
+.conclusion {
+  padding: 2em;
+}
+a {
+  color: #f2d261;
+  text-decoration: none;
+}
+a:hover {
+  color: #f27d88;
+}
+.entypo {
+  width: 6em;
+  padding: 1em;
+}
+.download {
+  padding-top: 2em;
+}
+@media screen and (min-width: 800px) {
+  .logo {
+    width: 50%;
+  }
+  #design-research p {
+    width: 60%;
+    text-align: left;
+  }
+  .abel {
+    font-size: 12em;
+  }
+}

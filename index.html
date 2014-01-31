@@ -1,0 +1,153 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+
+<link rel="stylesheet" href="assets/css/style.css" />
+
+<!--stylesheets-->
+
+
+<title>A B E L</title>
+</head>
+
+<body>
+<div id="container">
+	<!-- begin header -->
+	<div id="header">
+    	<div id="header-inner">		
+    		<img class="logo" src="assets/images/logo.png" alt="The Howdy Co."/>
+			</div>
+    </div> <!-- /header -->
+</div> <!-- /container -->    
+    <!-- begin main -->
+    <div id="main">
+    	<!--<div id="main-inner">-->
+    		<div id="presents">
+    			<div class="inner">
+	    		<h1 class="st_marie abel">ABEL</h1>
+	    		<p class="small st_marie">for the </p>
+	    		<p class="medium st_marie">Boston Design Center</p>
+    			</div>
+    		</div>
+    		<div id="design-research">
+    			<div class="inner">
+    			<p>The Boston Design Center has been described as an "eight story design mecca" by Boston Magazine. The BDC is the largest luxury design resource in New England.</p>
+    			</div>
+    		</div>
+    		<div class="cover photo" id="bdc"></div>
+    		<div id="design-research">
+    			<div class="inner">
+    			<p>The current navigation system relies on stationary maps and directories. Four maps are posted on each floor. One at each end of the central hallway, and in front of each elevator. However, you can only see the layout for the floor you are on.</p>
+    			</div>
+    		</div>
+    		<div class="cover photo" id="map"></div>
+    		<div id="design-research">
+    			<div class="inner">
+    			<p>The BDC's long hallways discourage tired shoppers. Showroom signs are hidden, and it is difficult to see into store fronts until you are standing right in front of them.</p>
+    			</div>
+    		</div>
+    		<div class="cover photo" id="hallway"></div>
+    		<div id="design-research">
+    			<div class="inner">
+    			<p>We envisioned a new way to get around the Boston Design Center. A smart companion to make your journey effective and efficient.</p>
+    			</div>
+    		</div>
+    		
+			<div id="demo">
+			<div class="inner">
+				<h2 class="st_marie medium"> Meet ABEL, your new shopping companion</h2>
+				<div class="video">
+				<iframe src="//player.vimeo.com/video/81588003?color=f2d261" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+			</div>
+			</div>
+			<div id="design-research">
+    			<div class="inner">
+    			<p>Explore a live demo of ABEL. Try searching for your own coffee table!</p>
+    			</div>
+    		</div>
+			<div class="demo">
+				<div class="inner">
+					<object class="swf" width="1024" height="768" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0">
+				<param name="SRC" value="assets/images/abel.swf">
+				<embed src="assets/images/abel.swf" width="1024" height="768">
+				</embed>
+			</object>
+				</div>
+			</div>
+			<div class="conclusion">
+				<div class="inner">
+					<p class="st_marie medium">Thank you, the Howdy Co.</p>
+					<p class="st_marie small"><a href="http://www.twitter.com/_alexdef" target="_blank">@_alexdef</a> &nbsp; <a href="http://www.twitter.com/_hanajeon" target="_blank">@_hanajeon</a></p>
+					<p class="st_marie small download">Download the Design Document</p><a href="assets/images/ABEL_designdoc.zip"><img class="entypo" src="assets/images/folder.png" target="_blank"/></a>
+				</div>
+			</div>
+    	<!--</div>  /main-inner -->
+    </div> <!-- /main -->
+
+    
+    <!-- begin footer -->
+    <div id="footer">
+    	<div id="footer-inner">
+
+    		</div>
+        </div> <!-- /footer -->
+    </div>
+
+</body>
+
+<!-- jQuery functions -->
+<script class="secret-source">
+        jQuery(document).ready(function($) {
+          
+          $('#slider').bjqs({
+            animtype      : 'slide',
+            height        : 500,
+            width         : 1024,
+            responsive    : true,
+            randomstart   : true
+          });
+          
+          for (var i=1;i<8;i++) {
+          	$(".toggle" + i).hide(); // hide all open toggles;
+          }
+          //$(".toggle").hide(); // hide all open toggles
+          
+            $(".click1").click(function() {
+		      $(".toggle1").toggle("slow", function() {
+			  });
+			});
+			
+			$(".click2").click(function() {
+		      $(".toggle2").toggle("slow", function() {
+			  });
+			});
+			
+			$(".click3").click(function() {
+		      $(".toggle3").toggle("slow", function() {
+			  });
+			});
+			
+			$(".click4").click(function() {
+		      $(".toggle4").toggle("slow", function() {
+			  });
+			});
+			
+			$(".click5").click(function() {
+		      $(".toggle5").toggle("slow", function() {
+			  });
+			});
+			
+			$(".click6").click(function() {
+		      $(".toggle6").toggle("slow", function() {
+			  });
+			});
+          
+        });
+      </script>
+</html>
+
+
